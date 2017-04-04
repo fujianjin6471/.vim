@@ -15,6 +15,7 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'The-NERD-Commenter'
 Plugin 'rizzatti/dash.vim'
 Plugin 'scrooloose/nerdtree'
+Plugin 'vim-scripts/indentpython.vim'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -43,8 +44,10 @@ set smartcase
 
 "set cindent
 set tabstop=4
+set softtabstop=4
 set shiftwidth=4
 set expandtab
+set autoindent
 
 set is
 set nohls
@@ -55,8 +58,8 @@ syntax on
 set guifont=Monaco:h16
 set lines=32 columns=122
 
-colorscheme molokai
-"colorscheme default
+"colorscheme molokai
+colorscheme default
   
 au BufNewFile,BufFilePre,BufRead *.md set filetype=markdown
 
