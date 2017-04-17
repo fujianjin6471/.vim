@@ -15,6 +15,7 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'The-NERD-Commenter'
 Plugin 'rizzatti/dash.vim'
 Plugin 'scrooloose/nerdtree'
+Plugin 'vim-scripts/indentpython.vim'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
